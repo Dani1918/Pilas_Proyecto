@@ -14,14 +14,14 @@ public class Main {
         do {
             System.out.println(" ");
             System.out.println("Elija una opción");
-            System.out.println("( 1 ) --> Insertar");
-            System.out.println("( 2 ) --> Mostrar");
-            System.out.println("( 3 ) --> Buscar");
-            System.out.println("( 4 ) --> Eliminar");
-            System.out.println("( 5 ) --> Tamaño");
-            System.out.println("( 6 ) --> Máximo");
-            System.out.println("( 7 ) --> Mínimo");
-            System.out.println("( 8 ) --> Terminar");
+            System.out.println("( 1 )  Insertar");
+            System.out.println("( 2 )  Mostrar");
+            System.out.println("( 3 )  Buscar");
+            System.out.println("( 4 )  Eliminar");
+            System.out.println("( 5 )  Tamaño");
+            System.out.println("( 6 )  Máximo");
+            System.out.println("( 7 )  Mínimo");
+            System.out.println("( 8 )  Terminar");
             System.out.println(" ");
 
             try{ //creamos la excepción correspondiente para solo abmitir valores numericos como respuesta a la opcion que el usuario elija.
@@ -103,14 +103,14 @@ public class Main {
 
                 case 7:
 
-                    System.out.println("<<-- Pila -->>");
+                    System.out.println("Pila");
                     pila.listar();
                     break;
 
 
 
                 case 8://Esta case  finaliza el programa.
-                    System.out.println("Usted salio del menú.. :D");
+                    System.out.println("Usted salio del menú.");
 
                     break;
             }
